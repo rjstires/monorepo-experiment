@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "packages/@mynamespace/*"
+  ],
+  "version": "0.0.0"
+}

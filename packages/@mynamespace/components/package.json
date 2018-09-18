@@ -1,0 +1,18 @@
+{
+  "name": "@mynamespace/components",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "clean": "rimraf dist/",
+    "lint": "tslint src/**/*.ts src/**/*.tsx",
+    "start": "webpack --mode=development --watch --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "main": "dist/components.umd.js",
+  "files": [
+    "dist"
+  ]
+}

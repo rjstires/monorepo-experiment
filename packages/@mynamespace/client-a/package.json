@@ -1,0 +1,22 @@
+{
+  "name": "@mynamespace/client-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "clean": "rimraf dist/",
+    "lint": "tslint src/**/*.ts src/**/*.tsx",
+    "start": "webpack --mode=development --watch --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mynamespace/services": "*",
+    "@mynamespace/components": "*"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@mynamespace/services",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "clean": "rimraf dist/",
+    "lint": "tslint src/**/*.ts",
+    "start": "webpack --mode=development --watch --color",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "main": "dist/services.umd.js",
+  "files": [
+    "dist"
+  ]
+}
